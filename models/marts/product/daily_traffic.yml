@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: daily_traffic
+    description: Daily traffic example model.
+    columns:
+      - name: date_day
+        description: The date.
+        tests:
+          - unique
+          - not_null
+
+      - name: count_visitors
+        description: The count of visitors.
