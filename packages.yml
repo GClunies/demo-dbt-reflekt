@@ -1,0 +1,7 @@
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 0.8.5
+
+  - git: "https://github.com/GClunies/patty-bar-reflekt"
+    subdirectory: "dbt_packages/reflekt_patty_bar_web"
+    revision: v0.1.0__reflekt_patty_bar_web
