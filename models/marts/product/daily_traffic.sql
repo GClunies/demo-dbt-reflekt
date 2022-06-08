@@ -8,7 +8,7 @@ with
 
 pages as (
 
-    select * from {{ ref('reflekt_patty_bar_web__pages') }}
+    select * from {{ ref('reflekt_my_app_web__pages') }}
 
 ),
 
