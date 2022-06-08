@@ -8,7 +8,7 @@ with
 
 pages as (
 
-    select * from {{ ref('reflekt_my_app_web__pages') }}
+    select * from {{ ref('reflekt_my_app_web__order_completed') }}
 
 ),
 
@@ -16,7 +16,7 @@ final as (
 
     select
         tstamp::date as date_day,
-        count(distinct coalesce(user_id, anonymous_id)) as count_visitors
+        count(*) as count_orders
 
     from pages
     group by 1

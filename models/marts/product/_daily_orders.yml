@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: daily_orders
+    description: Daily orders example model.
+    columns:
+      - name: date_day
+        description: The date.
+        tests:
+          - unique
+          - not_null
+
+      - name: count_orders
+        description: The count of orders made.
