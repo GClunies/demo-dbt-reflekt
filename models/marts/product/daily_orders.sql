@@ -6,7 +6,7 @@
 
 with
 
-pages as (
+orders as (
 
     select * from {{ ref('reflekt_my_app_web__order_completed') }}
 
@@ -18,7 +18,7 @@ final as (
         tstamp::date as date_day,
         count(*) as count_orders
 
-    from pages
+    from orders
     group by 1
 
 )
