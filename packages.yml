@@ -2,6 +2,6 @@ packages:
   - package: dbt-labs/dbt_utils
     version: 0.8.5
 
-  - git: "https://github.com/GClunies/patty-bar-reflekt"
-    subdirectory: "dbt_packages/reflekt_my_app_web"
-    revision: tag_goes_here
+  - git: "https://github.com/GClunies/reflekt-demo"
+    subdirectory: "dbt_packages/reflekt_demo_segment"
+    revision: my_got_tag
