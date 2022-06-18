@@ -4,4 +4,4 @@ packages:
 
   - git: "https://github.com/GClunies/patty-bar-reflekt"
     subdirectory: "dbt_packages/reflekt_my_app_web"
-    revision: v0.2.0_reflekt_my_app_web
+    revision: tag_goes_here
