@@ -4,4 +4,4 @@ packages:
 
   - git: "https://github.com/GClunies/reflekt-demo"
     subdirectory: "dbt-packages/reflekt_demo_segment"
-    revision: "v0.1.0__reflekt_demo_segment"
+    revision: "v0.1.1__reflekt_demo_segment"
