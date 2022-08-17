@@ -8,7 +8,7 @@ with
 
 orders as (
 
-    select * from {{ ref('reflekt_my_app_web__order_completed') }}
+    select * from {{ ref('stg_my_app_web__order_completed') }}
 
 ),
 
