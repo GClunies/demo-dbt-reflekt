@@ -5,10 +5,9 @@ description = ""
 authors = ["Greg Clunies <greg.clunies@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.8,<3.11"
 dbt-snowflake = "^1.1.0"
-sqlfluff = "^0.13.2"
-sqlfluff-templater-dbt = "^0.13.2"
+sqlfluff = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
 
