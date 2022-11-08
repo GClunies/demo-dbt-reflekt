@@ -8,6 +8,7 @@ authors = ["Greg Clunies <greg.clunies@gmail.com>"]
 python = ">=3.8,<3.11"
 dbt-snowflake = "^1.1.0"
 sqlfluff = "^1.4.1"
+dbt-osmosis = "^0.9.7"
 
 [tool.poetry.dev-dependencies]
 
