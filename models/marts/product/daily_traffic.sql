@@ -8,7 +8,7 @@ with
 
 pages as (
 
-    select * from {{ ref('stg_my_app_web__pages') }}
+    select * from {{ ref('stg_ecomm_demo__pages') }}
 
 ),
 
