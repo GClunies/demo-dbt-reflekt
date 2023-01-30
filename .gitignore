@@ -1,7 +1,7 @@
 # dbt
 target/
-dbt_packages/
 logs/
+# dbt_packages/  # Normally ignored but included in this repo for demo purposes
 
 # Python virtual environment
 .venv
