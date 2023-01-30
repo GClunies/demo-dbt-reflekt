@@ -2,6 +2,6 @@ packages:
   - package: dbt-labs/dbt_utils
     version: 0.8.5
 
-  - git: "https://{{env_var('DBT_ENV_SECRET_GITHUB_PAT_REFLEKT')}}@github.com/GClunies/reflekt"
-    subdirectory: "artifacts/dbt/reflekt_demo"
-    revision: "reflekt__ecomm_demo__v0.1"
+  - git: "https://{{env_var('DBT_ENV_SECRET_GITHUB_PAT_REFLEKT')}}@github.com/GClunies/demo-reflekt"
+    subdirectory: "artifacts/dbt/demo_reflekt"
+    revision: "reflekt__ecomm_demo__v0.2"
